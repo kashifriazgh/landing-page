@@ -1,0 +1,10 @@
+.sliderWrapper {
+  padding-top: 30px;
+}
+
+.sliderHeader {
+  width: 100%;
+  padding: 15px 0px;
+  display: flex;
+  gap: 20px;
+}

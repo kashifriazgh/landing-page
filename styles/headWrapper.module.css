@@ -1,0 +1,157 @@
+.topHead {
+  width: 100%;
+  min-height: 90vh;
+  background-image: url('../images/gradient2.jpg');
+}
+
+/*********Header.jsx**********/
+.navbar {
+  width: 100%;
+  padding: 7px 15px;
+}
+.logo {
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 23, 240),
+    rgb(206, 121, 214)
+  );
+}
+
+.menuItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  gap: 20px;
+}
+.menuItems div {
+  padding: 5px;
+  color: purple;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(240, 146, 240);
+  cursor: pointer;
+}
+
+.logoImg {
+  font-size: xx-large;
+  color: rgb(232, 224, 232);
+}
+.logoText {
+  font-size: x-large;
+  font-weight: bold;
+  color: orange;
+}
+
+.profileSection {
+  display: flex;
+  justify-content: flex-end;
+  height: 55px;
+  align-items: center;
+  gap: 15px;
+}
+.userIcon {
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+  color: purple;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+.userIcon:hover {
+  background: rgb(232, 183, 243);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.appointmentIcon {
+  color: white;
+  font-size: x-large;
+  font-weight: bolder;
+  color: purple;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+.appointmentIcon:hover {
+  background: rgb(232, 183, 243);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+/*******************Representation.jsx*******************/
+.repWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+}
+
+@media only screen and (max-width: 780px) {
+  .repWrapper {
+    min-height: 140vh;
+  }
+}
+
+.repBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.7;
+  height: 25vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(243, 168, 243),
+    rgb(122, 189, 244)
+  );
+  z-index: 0;
+}
+
+.repRight {
+  margin-top: 30px;
+}
+
+.photoFrame {
+  width: 320px;
+  height: 350px;
+  border: 10px solid white;
+  box-sizing: border-box;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  box-shadow: 10px 10px 10px rgb(232, 205, 233);
+}
+.photoFrameFill {
+  width: 320px;
+  position: relative;
+  height: inherit;
+  background: plum;
+  transform: scale(0.8);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+
+.repLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+@media only screen and (max-width: 780px) {
+  .repLeft {
+    padding: 15px;
+  }
+}
+
+.repTitle {
+  font-size: 3.6em;
+  color: white;
+}
+.repTitle span {
+  color: rgb(245, 166, 21);
+  font-weight: bold;
+}

@@ -1,7 +1,12 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import LayoutWrapper from '../Components/LayoutWrapper';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <LayoutWrapper>
+      <Component {...pageProps} />
+    </LayoutWrapper>
+  );
 }
 
-export default MyApp
+export default MyApp;
