@@ -44,9 +44,10 @@ export const FooterCol1 = () => {
         </Typography>
 
         <Typography variant="body1" sx={{ mt: 3 }}>
-          He tha foory na le padda wo shi com be da forry pla. ni gatha de shun
-          ba hool de , inn na mana allene, go le padda wo shi com be da forry
-          pla. ni gatha de shun ba hool de , inn na mana allene, go
+          Health Protector is a ... tha foory na le padda wo shi com be da forry
+          pla. ni gatha de shun ba hool de , inn na mana allene, go le padda wo
+          shi com be da forry pla. ni gatha de shun ba hool de , inn na mana
+          allene, go
         </Typography>
       </Box>
     </>

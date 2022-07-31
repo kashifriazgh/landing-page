@@ -4,6 +4,10 @@ import iconPremium from '../images/icon-premium.png';
 import { Avatar, Box, Grid, Typography } from '@mui/material';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import iconServices1 from '../images/icon-services1.png';
+import iconServices2 from '../images/icon-services2.png';
+import iconServices3 from '../images/icon-services3.png';
+import iconServices4 from '../images/icon-services4.png';
 
 const Slides = () => {
   return (
@@ -115,19 +119,22 @@ export const SlidesContainer = () => {
               <CarouselBox
                 title="Amazing title going here"
                 desc="Some Amzaing descri wanna fool pnadaa kd ad"
+                imgUrl={iconServices1}
               />
               <CarouselBox
-                title="What a great title"
-                desc="an fool a=batta kan de ale pol sheud panday"
+                title="Shee paney loo fa awe sum"
+                desc="an fool abatta kan de ale pol sheud panday"
+                imgUrl={iconServices2}
               />
               <CarouselBox
                 title="cheng hong pangee"
                 desc="de pol wanna ale be tha fossle de duch"
+                imgUrl={iconServices3}
               />
               <CarouselBox
-                title="Mpde [addau gpp; gappay"
+                title="Mpde addau gpp gappay"
                 desc="jey paal funta goom bale na de vall"
-                imgUrl={iconPremium}
+                imgUrl={iconServices4}
               />
             </Carousel>
           </Box>

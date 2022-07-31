@@ -36,7 +36,7 @@ const GetStarted = () => {
           </Box>
           <br />
           <Typography variant="h5" sx={{ color: 'white' }}>
-            Why not start
+            Why not started Yet
           </Typography>
           <Typography
             textAlign="center"
